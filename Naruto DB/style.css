@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+img{
+    width: 300px;
+}
+.btn{
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    transform: translateY(-2px);
+}
+.btn:active{
+    transform: translateY(2px);
+}
+.balle{
+    width: 20px;
+    margin-left: 10px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.nom{
+    margin-left: 15px;
+}
